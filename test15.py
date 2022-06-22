@@ -1,0 +1,10 @@
+x=list(input("輸入一組四位數字為:"))
+a=int(x[0])
+b=int(x[1])
+c=int(x[2])
+d=int(x[3])
+a1=(a+7)%10
+b2=(b+7)%10
+c3=(c+7)%10
+d4=(d+7)%10
+print("輸出加密後的數字為:"+str(c3)+str(d4)+str(a1)+str(b2))
